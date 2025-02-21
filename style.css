@@ -98,7 +98,7 @@ section {
     font-size: 3rem;
 }
 
-.header .logo span{
+.header .logo span {
     color: rgb(5, 238, 21);
 }
 
@@ -124,3 +124,40 @@ section {
     margin-top: 5rem;
 }
 
+.home .slide {
+    min-height: 90vh;
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+}
+
+.home .slide .content {
+    width: 60rem;
+}
+
+.home .slide .content span{
+    font-size: 3rem;
+    color: rgb(5, 238, 21);
+    display: block;
+}
+
+.home .slide .content h3 {
+    font-size: 5rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/* Classe que vem do swiper para criar bolinhas */
+
+.swiper-pagination-bullet {
+    height: 2rem;
+    width: 2rem;
+    background: #fff;
+    border-radius: 0;  
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: rgb(5, 238, 21);
+}
