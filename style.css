@@ -243,4 +243,12 @@ section {
     color: rgb(5, 238, 21);
 }
 
+/* Features*/
+
+.features .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 1.5rem;
+}
+
 
